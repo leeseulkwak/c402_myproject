@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 
 cwd=os.getcwd()
-df=pd.read_csv(os.path.join(cwd, "SVM", "basketball_stat.csv"))
+df=pd.read_csv(os.path.join(cwd, "svm", "basketball_stat.csv"))
 
 # 20%의 테스트 데이터 분리
 train,test=train_test_split(df, test_size=0.2)
